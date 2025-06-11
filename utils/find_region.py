@@ -1,0 +1,10 @@
+import pyautogui, time
+print("Dua chuot den goc TREN-TRAI cua vung game...")
+time.sleep(3)
+pos1 = pyautogui.position()
+print(f"Vi tri 1: {pos1}")
+print("Dua chuot den goc DUOI-PHAI cua vung game...")
+time.sleep(3)
+pos2 = pyautogui.position()
+print(f"Vi tri 2: {pos2}")
+print(f"--> MONITOR_REGION = ({pos1.x}, {pos1.y}, {pos2.x - pos1.x}, {pos2.y - pos1.y})")
