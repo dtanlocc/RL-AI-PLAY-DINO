@@ -24,8 +24,8 @@ CONFIG = {
     "TRAINING_LOG_FILE": "training_log_adaptive_v3.txt",
 
     # --- Cấu hình cho việc chơi lại một model cụ thể ---
-    "MODEL_DIR_PLAY": "models/adaptive_dino_models_v3",  # Ví dụ: chơi model từ thư mục v2
-    "MODEL_PLAY": "dino_adaptive_expert_v3_484042_steps.zip",  # Ví dụ: checkpoint cụ thể
+    "MODEL_DIR_PLAY": "models/adaptive_dino_models_v2",  # Ví dụ: chơi model từ thư mục v2
+    "MODEL_PLAY": "dino_adaptive_expert_v2.zip",  # Ví dụ: checkpoint cụ thể
 
     # --- Đường dẫn mặc định cho model cũ để transfer learning ---
     "OLD_MODEL_DEFAULT_PATH": "models/jumps_models/dino_jump_expert.zip",
