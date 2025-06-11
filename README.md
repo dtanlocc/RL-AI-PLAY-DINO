@@ -1,5 +1,5 @@
 # Dino RL Agent - AI Tự Động Chơi Game Khủng Long
-![](images/full_creen.png)
+![](assist/full_creen.png)
 
 Dự án này triển khai một agent sử dụng Học Tăng Cường (Reinforcement Learning) để chơi game Khủng Long của Google Chrome. Điểm đặc biệt của agent này là khả năng **tự động thích ứng** (adaptive) với cả chế độ Sáng (Light Mode) và Tối (Dark Mode) của game mà không cần huấn luyện lại.
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 Sau khi đã cấu hình xong, bạn có thể bắt đầu sử dụng agent.
 
 _**Quan trọng**: Trước khi chạy bất kỳ lệnh nào dưới đây, sử dụng screen splitting của windows, hãy mở cửa sổ game Dino và để nó ở vị trí sẵn sàng. Script sẽ đợi 5 giây để bạn chuyển sang cửa sổ game._
-![Demo](images/setup_posision.gif)
+![Demo](assist/setup_posision.gif)
 
 ### 1. Huấn Luyện Model Mới
 Lệnh này sẽ bắt đầu quá trình huấn luyện từ đầu.
@@ -67,7 +67,7 @@ python main.py --mode play
 ### 4. Chạy Chế Độ Debug
 Nếu bạn chỉ muốn xem các vùng phát hiện mà không cần huấn luyện hay chơi:
 
-![Demo](images/debug_vision.png)
+![Demo](assist/debug_vision.png)
 
 ```bash
 python main.py --mode debug_vision
